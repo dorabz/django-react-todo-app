@@ -17,8 +17,11 @@ const NotePage = ({ match }) => {
     }
 
     return (
-        <div>
-            <p>{note?.body}</p>  
+        <div className="note">
+            <div className="note-header">
+                
+            </div>
+            <textarea value={note?.body}></textarea>
         </div>
     
       )
